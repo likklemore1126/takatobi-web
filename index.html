@@ -40,7 +40,7 @@
   .header-inner .wordmark{ font-family:'Kanit', sans-serif; font-weight:700; font-size:18px; }
 
   .hero{ text-align:center; padding:24px 0 64px; }
-  .hero-logo{ width:150px; margin:0 auto 28px; }
+  .hero-logo{ width:240px; margin:0 auto 20px; mix-blend-mode:multiply; }
   .hero h1{ font-size:27px; max-width:22ch; margin:0 auto 16px; }
   .hero p{ font-size:15px; color:#6b6355; max-width:40ch; margin:0 auto; }
 
@@ -59,10 +59,11 @@
   }
   .product-card.soon{ opacity:0.72; }
   .product-icon{
-    flex:0 0 56px; width:56px; height:56px; border-radius:14px;
-    display:flex; align-items:center; justify-content:center; font-size:24px;
-    background:var(--sand);
+    flex:0 0 72px; width:72px; height:72px; border-radius:16px;
+    display:flex; align-items:center; justify-content:center; font-size:30px;
+    background:var(--sand); overflow:hidden;
   }
+  .product-icon img{ width:100%; height:100%; object-fit:cover; }
   .product-body{ flex:1; }
   .product-name-row{ display:flex; align-items:center; gap:8px; margin-bottom:4px; flex-wrap:wrap; }
   .product-name{ font-size:16.5px; font-weight:700; }
@@ -116,7 +117,7 @@
     <p class="lead">それぞれ、タイ旅行のある場面に特化したアプリです。</p>
 
     <a class="product-card" href="https://yubisashi.takatobi.jp/lp.html">
-      <div class="product-icon">🇹🇭</div>
+      <div class="product-icon"><img src="images/yubisashi-icon.png" alt="指さしタイ"></div>
       <div class="product-body">
         <div class="product-name-row">
           <div class="product-name">指さしタイ</div>
@@ -128,7 +129,7 @@
     </a>
 
     <a class="product-card soon" href="https://poca.takatobi.jp/">
-      <div class="product-icon">🐘</div>
+      <div class="product-icon"><img src="images/poca-icon.jpg" alt="Thai Pocket Cards"></div>
       <div class="product-body">
         <div class="product-name-row">
           <div class="product-name">Thai Pocket Cards</div>
