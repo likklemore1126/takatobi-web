@@ -45,7 +45,6 @@
   .hero p{ font-size:15px; color:#6b6355; max-width:40ch; margin:0 auto; }
 
   .bio{ background:var(--teal); color:#fff; }
-  .bio h2{ color:#fff; font-size:22px; margin-bottom:18px; }
   .bio h3{ color:#fff; font-size:16px; margin-bottom:10px; }
   .bio p{ font-size:15px; color:rgba(255,255,255,0.82); line-height:1.8; margin-bottom:12px; }
   .author-section{ margin-bottom:26px; }
@@ -94,8 +93,12 @@
   .product-arrow{ flex:0 0 auto; font-size:20px; color:#C7BEA9; }
 
   footer{ padding:36px 0 48px; font-size:12px; color:#8B8272; border-top:1px solid var(--line); }
+  .footer-brand{ display:flex; align-items:center; gap:10px; margin-bottom:6px; }
+  .footer-brand img{ height:30px; width:auto; }
+  .footer-brand-text{ font-size:12.5px; color:#8B8272; }
   .footer-links{ display:flex; gap:18px; flex-wrap:wrap; margin-top:10px; }
   .footer-links a{ text-decoration:underline; }
+  .footer-copyright{ font-size:11.5px; color:#B3AA98; margin-top:18px; }
 </style>
 </head>
 <body>
@@ -117,7 +120,6 @@
 
 <section class="bio" id="author">
   <div class="wrap">
-    <h2>タイが好きすぎて<br>移住しました</h2>
     <div class="author-section">
       <h3>■タイが好きすぎて、移住しました</h3>
       <p>東南アジアのひとり旅が好きで何度も旅をするうちにタイにハマり「好きすぎてとうとうタイへ移住しました」。今もタイで暮らしています。</p>
@@ -180,12 +182,15 @@
 
 <footer>
   <div class="wrap">
-    <div>TakaTobi</div>
+    <div class="footer-brand">
+      <img src="images/takatobi-logo.png" alt="TakaTobi">
+      <div class="footer-brand-text">TakaTobi</div>
+    </div>
     <div class="footer-links">
-      <a href="https://kankoutaishi.hatenablog.com/">旅行ブログ「勝手に観光大使w」</a>
       <a href="#">特定商取引法に基づく表記</a>
       <a href="#">プライバシーポリシー</a>
     </div>
+    <div class="footer-copyright">© 2026 TakaTobi. All Rights Reserved.</div>
   </div>
 </footer>
 
